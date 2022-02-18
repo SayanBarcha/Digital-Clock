@@ -1,0 +1,21 @@
+body{
+    background: #000;
+}
+.clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+    font-size: 80px;
+    border: 1px solid #ccc;
+    padding: 0px 5px 0px 5px;
+    transition: .3s;
+}
+.clock:hover{    
+    border: 1px solid #2196f3;
+    color: #255784;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition: .3s;
+}
